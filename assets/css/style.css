@@ -1,9 +1,14 @@
 body {
-  background-color: #f8fcfd;
+  background-color: #131d1f;
 }
 
 h1,
 h2,
 h3 {
   text-align: center;
+}
+
+img {
+  width: 30%;
+  height: auto;
 }
