@@ -3,31 +3,20 @@
 }
 
 body {
-  background-color: #0d0f0f;
+  background-color: #ccdbdb;
+  font-family: Arial;
 }
 
-.container {
+.main-project-image {
+}
+
+.project {
   position: relative;
   max-width: 800px;
   margin: 0 auto;
 }
-.text-block {
+
+.project .main-project .title-container {
   position: absolute;
-  bottom: 0;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5);
-  color: #f1f1f1;
-  width: 100%;
-  padding: 20px;
-}
-
-h1,
-h2,
-h3 {
-  text-align: center;
-}
-
-img {
-  width: 50%;
-  height: auto;
+  background: brown;
 }
