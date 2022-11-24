@@ -1,14 +1,19 @@
 * {
   position: center;
+  text-align: center;
+}
+
+header{
+  background: rgb(232, 184, 94);
 }
 
 body {
-  background-color: #293030;
-  font-family: Arial;
+  background-color: #9bb3d4;
+  font-family: monospace;
 }
 
 .main-project-image {
-  min-width: 1150px;
+  min-width: 700px;
 }
 
 .project {
@@ -25,18 +30,21 @@ body {
 
 .main-project .title-container {
   position: absolute;
-  background: brown;
+  background: rgb(137, 103, 189);
 }
 
 .sub-projects-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  flex: 1 0 200px;
+  flex: 100%;
   padding: 10px;
+  max-width: 80%;
   text-align: center;
-  border-style: solid;
-  border-width: 1px;
+  border-style: solid;s
+  border-width: 3px;
+  border-radius: 25px;
+  box-shadow: 6px 6px 10px #888888;
 }
 
 .sub-projects {
@@ -46,11 +54,26 @@ body {
 .sub-project-image {
   max-width: 500px;
   min-width: 500px;
-  min-height: 250px;
+  min-height: 295px;
   max-height: 250px;
 }
 
 .sub-project-caption {
   position: absolute;
   background: rgb(137, 103, 189);
+}
+
+.portrait {
+  display: flex;
+  justify-content: center;
+  max-width: 400px;
+  min-width: 250px;
+  min-height: 295px;
+  max-height: 250px;
+}
+
+@media screen and (max-width: 992px) {
+  header {
+    background: #772014;
+  }
 }
