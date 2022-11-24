@@ -33,6 +33,8 @@ body {
 .main-project .title-container {
   position: absolute;
   background: rgb(137, 103, 189);
+  padding: 10px;
+  
 }
 
 .sub-projects-container {
