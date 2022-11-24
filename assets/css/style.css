@@ -13,7 +13,8 @@ body {
 }
 
 .main-project-image {
-  min-width: 600px;
+  min-width: 90%;
+  padding: 5px
 }
 
 .project {
@@ -26,6 +27,7 @@ body {
 
 .main-project {
   width: fit-content;
+  
 }
 
 .main-project .title-container {
@@ -41,7 +43,7 @@ body {
   padding: 10px;
   max-width: 80%;
   text-align: center;
-  border-style: solid;s
+  border-style: solid;
   border-width: 3px;
   border-radius: 25px;
   box-shadow: 6px 6px 10px #888888;
@@ -73,9 +75,9 @@ body {
   display: flex;
   justify-content: center;
   max-width: 300px;
-  min-width: 250px;
+  min-width: 255px;
   min-height: 295px;
-  max-height: 260px;
+  max-height: 265px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -89,7 +91,7 @@ body {
 
   @media screen and (max-width: 768px) {
   main {
-display: flex;
+    display: flex;
   }
 
 }
@@ -97,4 +99,3 @@ display: flex;
   main {
     display: block;
   }
-}
