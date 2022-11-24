@@ -73,7 +73,18 @@ body {
 }
 
 @media screen and (max-width: 992px) {
-  header {
-    background: #772014;
+  * {
+    display: block;
+  }
+
+  @media screen and (max-width: 768px) {
+  main {
+display: flex;
+  }
+
+}
+@media screen and (max-width: 575px) {
+  #main {
+    display: block;
   }
 }
