@@ -45,6 +45,8 @@ body {
   border-width: 3px;
   border-radius: 25px;
   box-shadow: 6px 6px 10px #888888;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .sub-projects {
@@ -61,6 +63,8 @@ body {
 .sub-project-caption {
   position: absolute;
   background: rgb(137, 103, 189);
+  padding: 10px;
+  
 }
 
 .portrait {
@@ -69,7 +73,11 @@ body {
   max-width: 400px;
   min-width: 250px;
   min-height: 295px;
-  max-height: 250px;
+  max-height: 260px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
 }
 
 @media screen and (max-width: 992px) {
