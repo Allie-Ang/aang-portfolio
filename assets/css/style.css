@@ -13,7 +13,7 @@ body {
 }
 
 .main-project-image {
-  min-width: 700px;
+  min-width: 600px;
 }
 
 .project {
@@ -58,6 +58,8 @@ body {
   min-width: 500px;
   min-height: 295px;
   max-height: 250px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .sub-project-caption {
@@ -70,14 +72,14 @@ body {
 .portrait {
   display: flex;
   justify-content: center;
-  max-width: 400px;
+  max-width: 300px;
   min-width: 250px;
   min-height: 295px;
   max-height: 260px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
+  width: 50%;
 }
 
 @media screen and (max-width: 992px) {
