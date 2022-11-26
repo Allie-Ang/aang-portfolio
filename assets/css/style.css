@@ -71,18 +71,18 @@ body {
   
 }
 
-.portrait {
+.portrait { 
   display: flex;
   justify-content: center;
   max-width: 300px;
   min-width: 255px;
-  min-height: 295px;
-  max-height: 265px;
+  min-height: 300px;
+  max-height: 280px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
-}
+  width: 50%; 
+} 
 
 @media screen and (max-width: 992px) {
   * {
@@ -98,4 +98,4 @@ body {
 @media screen and (max-width: 575px) {
   main {
     display: block;
-  }
+  }}
